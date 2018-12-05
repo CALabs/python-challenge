@@ -68,6 +68,13 @@ Min_Date
 
 # In[40]:
 
+print("Financial Analysis")
+print("-----------------")
+print("Total Months: " + str(Month_count))
+print("Total: $" + str(Net_PL))
+print("Average Change: $" + str(PLC_Mean))
+print("Greatest Increase in Profits: " + str(Max_Date) + " ($" + str(Max_Profit) + ")")
+print("Greatest Decrease in Profits: " + str(Min_Date) + " ($" + str(Min_Profit) + ")")
 
 import sys
 sys.stdout = open('Financial Analysis.txt','wt')
